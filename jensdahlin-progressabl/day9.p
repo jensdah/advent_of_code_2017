@@ -1,6 +1,6 @@
 
 /*------------------------------------------------------------------------
-    File        : day10.p
+    File        : day9.p
     Purpose     : 
 
     Syntax      :
@@ -19,7 +19,7 @@ DEFINE VARIABLE cChr     AS CHARACTER NO-UNDO.
 DEFINE VARIABLE iTotal   AS INTEGER   NO-UNDO.
 DEFINE VARIABLE iGarbage AS INTEGER   NO-UNDO.
 
-COPY-LOB FROM FILE SEARCH("day10.txt") TO cInput.
+COPY-LOB FROM FILE SEARCH("day9.txt") TO cInput.
 
 DEFINE TEMP-TABLE ttGroup NO-UNDO
     FIELD posStart AS INTEGER 
